@@ -1,0 +1,64 @@
+body {
+  font-family: 'Courier New', monospace;
+  width: 100%;
+}
+
+#enemy {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: orange;
+  color: black;
+  text-align: center;
+  line-height: 200px;
+}
+
+.container {
+  margin: 30px auto 0 auto;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice {
+  width: 100px;
+  height: 50px;
+  background: skyblue;
+  color: black;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  user-select: none;
+}
+
+.choice:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#result {
+  margin: 30px auto;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+#replay {
+  width: 100px;
+  height: 50px;
+  margin: 15px auto;
+  background: lightgreen;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+}
+
+#replay:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
